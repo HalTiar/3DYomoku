@@ -6,6 +6,8 @@ TagManager:
   tags:
   - clickable
   - Clickable
+  - BoardParts
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - RaycastTarget
   - 
   - 
   - 

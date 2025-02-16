@@ -26,13 +26,13 @@ public class GameManager : MonoBehaviour
     private int [,,] board;
 
     // 現在のターン(0 or 1)
-    private int currentPlayer = 0;
+    public int currentPlayer = 0;
 
     void Awake(){
         if (Instance == null){
             Instance = this;
         }else{
-            Destroy(GameObject);
+            Destroy(gameObject);
         }
     }
     
